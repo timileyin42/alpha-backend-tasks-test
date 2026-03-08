@@ -375,7 +375,7 @@ flowchart LR
 	D --> E[(Postgres)]
 	C --> F[Report Formatter]
 	F --> G[Jinja Template]
-	G --> H[GET /briefings/{id}/html]
+	G --> H[GET /briefings/&#123;id&#125;/html]
 ```
 
 ## 19. Tradeoffs and Assumptions
